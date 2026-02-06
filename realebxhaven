@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RBXHAVEN | Premium Robux Marketplace</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap');
+        
+        body {
+            background-color: #05070a;
+            color: #ffffff;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            overflow-x: hidden;
+        }
+
+        /* MM2Store Style Animations */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .glass-card:hover {
+            background: rgba(59, 130, 246, 0.1);
+            border-color: rgba(59, 130, 246, 0.5);
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 20px rgba(59, 130, 246, 0.2);
+        }
+
+        .glow-text {
+            text-shadow: 0 0 15px rgba(59, 130, 246, 0.6);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            box-shadow: 0 0 25px rgba(37, 99, 235, 0.6);
+            transform: scale(1.02);
+        }
+
+        /* Floating Animation for Icons */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        .float-img { animation: float 4s ease-in-out infinite; }
+    </style>
+</head>
+<body>
+
+    <nav class="flex justify-between items-center px-8 py-6 sticky top-0 bg-[#05070a]/90 backdrop-blur-md z-50">
+        <div class="flex items-center gap-2">
+            <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center font-bold text-xl">R</div>
+            <span class="text-2xl font-extrabold tracking-tight">RBX<span class="text-blue-500">HAVEN</span></span>
+        </div>
+        <div class="hidden md:flex gap-8 text-gray-400 font-medium">
+            <a href="#" class="hover:text-white transition">Buy Robux</a>
+            <a href="#" class="hover:text-white transition">Limiteds</a>
+            <a href="#" class="hover:text-white transition">Vouch Copy</a>
+            <a href="#" class="hover:text-white transition">Support</a>
+        </div>
+        <div class="flex gap-4">
+            <button class="px-6 py-2 rounded-full border border-gray-700 font-bold hover:bg-white hover:text-black transition">Login</button>
+        </div>
+    </nav>
+
+    <section class="text-center py-20 px-4">
+        <h1 class="text-6xl md:text-8xl font-black mb-6 glow-text">STOCK UP FAST.</h1>
+        <p class="text-gray-400 text-xl max-w-2xl mx-auto mb-10">Cheap, secure, and instant delivery. Join the haven of the smartest traders.</p>
+        <div class="flex justify-center gap-4">
+            <div class="bg-gray-900/50 px-4 py-2 rounded-full border border-blue-900/30 text-blue-400 text-sm">
+                <i class="fa-solid fa-bolt mr-2"></i> 14,200 Stock Available
+            </div>
+        </div>
+    </section>
+
+    <main class="container mx-auto px-6 pb-24">
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            
+            <div class="glass-card rounded-2xl p-6 text-center">
+                <div class="mb-6 h-32 flex items-center justify-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Robux_2019_Logo_gold.svg" class="w-20 float-img" alt="Robux">
+                </div>
+                <h3 class="text-2xl font-bold mb-2">1,000 Robux</h3>
+                <p class="text-gray-500 text-sm mb-6">Tax Covered (1,428 Total)</p>
+                <div class="flex justify-between items-center bg-black/40 p-3 rounded-xl mb-6">
+                    <span class="text-gray-400 line-through text-sm">$12.50</span>
+                    <span class="text-2xl font-black text-blue-500">$7.49</span>
+                </div>
+                <button class="w-full btn-primary py-3 rounded-xl font-bold uppercase tracking-widest text-sm">Purchase</button>
+            </div>
+
+            <div class="glass-card rounded-2xl p-6 text-center border-blue-500/50">
+                <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-blue-600 text-[10px] font-black px-4 py-1 rounded-full uppercase">Best Seller</div>
+                <div class="mb-6 h-32 flex items-center justify-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Robux_2019_Logo_gold.svg" class="w-24 float-img" alt="Robux">
+                </div>
+                <h3 class="text-2xl font-bold mb-2">5,000 Robux</h3>
+                <p class="text-gray-500 text-sm mb-6">Instant Delivery</p>
+                <div class="flex justify-between items-center bg-black/40 p-3 rounded-xl mb-6">
+                    <span class="text-gray-400 line-through text-sm">$62.50</span>
+                    <span class="text-2xl font-black text-blue-500">$34.99</span>
+                </div>
+                <button class="w-full btn-primary py-3 rounded-xl font-bold uppercase tracking-widest text-sm">Purchase</button>
+            </div>
+
+            </div>
+    </main>
+
+    <section class="bg-blue-600/5 py-20 border-y border-white/5">
+        <div class="container mx-auto px-6 grid md:grid-cols-3 gap-12">
+            <div class="flex flex-col items-center text-center">
+                <i class="fa-solid fa-shield-halved text-4xl text-blue-500 mb-4"></i>
+                <h4 class="text-xl font-bold mb-2">Secure Transactions</h4>
+                <p class="text-gray-500 text-sm">Encrypted payments and safe delivery methods to protect your account.</p>
+            </div>
+            <div class="flex flex-col items-center text-center">
+                <i class="fa-solid fa-clock text-4xl text-blue-500 mb-4"></i>
+                <h4 class="text-xl font-bold mb-2">Instant Delivery</h4>
+                <p class="text-gray-500 text-sm">Our automated system sends your Robux the second your payment clears.</p>
+            </div>
+            <div class="flex flex-col items-center text-center">
+                <i class="fa-solid fa-headset text-4xl text-blue-500 mb-4"></i>
+                <h4 class="text-xl font-bold mb-2">24/7 Support</h4>
+                <p class="text-gray-500 text-sm">Got a question? Our Discord team is available around the clock.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
